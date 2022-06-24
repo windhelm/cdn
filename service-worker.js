@@ -5,8 +5,8 @@ const DEBUG_MODE = true;
 // SETTINGS SW
 var settings = {
     enabled: 1,
-    block_id: "<!-- BLOCKED_PROVIDER_CHECK -->", // Часть контента, при отсутствии которого наш воркер будет считать, что страница заблокирована
-    redirect_url: "//site.com", // Fallback URL, если не нашли настроек для текущего домена, то куда будем редиректить если enabled: 1
+    block_id: "<!-- BLOCKED_PROVIDER_CHECK -->", 
+    redirect_url: "//site.com",
 };
 // PARAMS_FOR_REDIR
 var redirect_params = {
